@@ -64,7 +64,7 @@ If you want to use several cpu cores via multiprocessing while preprocessing a l
 
 If you want to faster the code through multi gpus, you may construct the object via
 
-    >>> pr = Politenessr(is_paralleled=False, BATCH_SIZE = batch_size)
+    >>> pr = Politenessr(is_paralleled=True, BATCH_SIZE = batch_size)
 
 
 ## Contact
