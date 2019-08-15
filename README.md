@@ -35,7 +35,7 @@ which takes a single text of a list of texts, and returns a list of raw values i
 You may directly import `politenessr` and use the default predict method, e.g.:
 
     >>> import politenessr
-    >>> politenessr.predict("I am totally agree with you")
+    >>> politenessr.predict(["I am totally agree with you"])
     [4.3568916]
     
 ### Construct from class
@@ -45,7 +45,7 @@ Alternatively, you may also construct the object from class, where you could cus
 	>>> pr = Politenessr()
 	
 	# Predict a single text
-	>>> pr.predict("I am totally agree with you")
+	>>> pr.predict(["I am totally agree with you"])
 	[3.5638056]
 	
 	# Predict a list of texts
